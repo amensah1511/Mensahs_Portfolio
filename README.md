@@ -1,2 +1,5 @@
 # Mensahs_Portfolio
 # Google Data Analytics Capstone Project: Cyclist Bike Share Case Study
+This is a cumulative capstone project that I have completed to conclude my Google Data Analytics course. This work is an accumulation of the skills I have learned, including data accumulation, data cleaning, data manipulation, data analysis, and data visualization.Throughout this project, I have applied various techniques to collect and clean raw data, ensuring its accuracy and reliability. I have also utilized different data manipulation strategies to structure and transform the data, making it suitable for analysis. Using statistical and analytical methods, I have derived meaningful insights and trends from the data. Finally, I have created visualizations to present the findings in an engaging and comprehensible manner. This capstone project serves as a demonstration of my proficiency in data analytics and my ability to apply these skills to real-world scenarios. It showcases my competence in handling data-driven decision-making processes and effectively communicating insights through visual storytelling.
+
+# Introduction
