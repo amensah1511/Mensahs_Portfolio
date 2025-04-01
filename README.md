@@ -115,3 +115,24 @@ Delete
  Where
  start_station_name = "";
 ```
+Now that I have deleted columns without a start or end station name, I created three new columns to enhance data analysis: one calculating travel time for each ride, one identifying the day of the week, and one indicating the month each ride took place.
+```
+ ### Create column to calculate trip duration for each ride
+Alter Table 2024_bike_data
+Add Column trip_duration TIME;
+    
+UPDATE 2024_bike_data 
+SET 
+    trip_duration = TIMEDIFF(`ended_at`, `started_at`);
+#### Create a column for day of week for rides 
+Alter Table 2024_bike_data
+Add Column day_of_week longtext;
+
+UPDATE 2024_bike_data 
+SET 
+    day_of_week = DATE_FORMAT(started_at, '%a');
+###  Create a column for months for rides
+Alter table 2024_bike_data Add COLUMN Month longtext;
+
+UPDATE 2024_bike_data set month = date_format(started_at,'%b');
+```
