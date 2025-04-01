@@ -59,4 +59,34 @@ Lily Moreno has tasked me with answering the first question. How do annual membe
 Involves collecting data and information and ensuring it satisfies necessary parameters.
 
 ## Data Collection 
-Data was collected from Motivate International Inc., which provided it under this [license](https://divvybikes.com/data-license-agreement). The dataset consists of rides recorded throughout each month of 2024. You can access the data here: [Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Data was collected from Motivate International Inc., which provided it under this [license](https://divvybikes.com/data-license-agreement). The dataset consists of rides recorded throughout each month of 2024. I retrieved my data from [Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) public data. The data satisfies the ROCCC standard which means that it is reliable, original, comprehensive, current, and cited.
+
+ # Process
+Due to the large volume of data across the 12 downloaded files, I imported each Excel sheet into a MySQL database. I then merged all datasets into a single table labeled '2024_bike_data.' The next step in the process was to remove columns that were not relevant to this case study, ensuring a streamlined and efficient analysis
+
+``` CREATE TABLE 2024_bike_data
+SELECT * from 03_2024tripdata
+UNION
+SELECT * FROM 02_2024tripdata
+UNION
+SELECT * FROM 03_2024tripdata
+Union
+SELECT * from 04_2024tripdata
+UNION
+SELECT * FROM 05_2024tripdata
+UNION
+SELECT * from 07_2024tripdata
+UNION
+Select * from 08_2024tripdata
+UNION
+Select * from 09_2024tripdata
+Union
+Select * from 10_2024tripdata
+UNION
+SELECT * from 11_2024tripdata
+union 
+SELECT * FROM 12_2024tripdata
+UNION
+SELECT * from `06_2024-divvy-tripdata`; ```
+
+
