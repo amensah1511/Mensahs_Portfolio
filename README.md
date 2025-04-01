@@ -136,3 +136,13 @@ Alter table 2024_bike_data Add COLUMN Month longtext;
 
 UPDATE 2024_bike_data set month = date_format(started_at,'%b');
 ```
+I used the 'trip_duration' column to identify and remove rides lasting over 24 hours or under one minute for more accurate data analysis.
+``` ### Delete rows that have travel time over 24hrs or under 1 second 
+DELETE FROM 2024_bike_data 
+WHERE
+    trip_duration >= TIME_FORMAT('24:00:00', '%T')
+    OR trip_duration <= TIME_FORMAT('00:00:01', '%T');
+```
+# Analysis 
+
+During this stage of the study I used some data manipulation dstartigies to get a better understanding of the data and what it may convey 
