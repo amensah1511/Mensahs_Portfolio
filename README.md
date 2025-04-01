@@ -65,7 +65,8 @@ Data was collected from Motivate International Inc., which provided it under thi
 Due to the large volume of data across the 12 downloaded files, I imported each Excel sheet into a MySQL database. I then merged all datasets into a single table labeled '2024_bike_data.' The next step in the process was to remove columns that were not relevant to this case study, ensuring a streamlined and efficient analysis
 
 ``` CREATE TABLE 2024_bike_data
-SELECT * from 03_2024tripdata
+CREATE TABLE 2024_bike_data
+SELECT * from 01_2024tripdata
 UNION
 SELECT * FROM 02_2024tripdata
 UNION
