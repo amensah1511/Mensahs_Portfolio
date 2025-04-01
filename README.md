@@ -62,7 +62,7 @@ Involves collecting data and information and ensuring it satisfies necessary par
 Data was collected from Motivate International Inc., which provided it under this [license](https://divvybikes.com/data-license-agreement). The dataset consists of rides recorded throughout each month of 2024. I retrieved my data from [Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html) public data. The data satisfies the ROCCC standard which means that it is reliable, original, comprehensive, current, and cited.
 
  # Process
-Due to the large volume of data across the 12 downloaded files, I imported each Excel sheet into a MySQL database. I then merged all datasets into a single table labeled '2024_bike_data.' The next step in the process was to remove columns that were not relevant to this case study, ensuring a streamlined and efficient analysis
+Due to the large volume of data across the 12 downloaded files, I imported each Excel sheet into a MySQL database. I then merged all datasets into a single table labeled '2024_bike_data.' The next step in the process was to remove columns that were not relevant to this case study, ensuring a streamlined and efficient analysis.
 
 ``` CREATE TABLE 2024_bike_data
 CREATE TABLE 2024_bike_data
@@ -92,3 +92,13 @@ SELECT * from `06_2024-divvy-tripdata`;
 ```
 
 
+The next step in the process was to remove columns that were not relevant to this case study, ensuring a streamlined and efficient analysis.
+```
+### Drop columns that are not needed for this analysis
+
+Alter Table 2024_bike_data
+DROP COLUMN start_lng,
+DROP Column start_lat,
+DROP COLUMN end_lat,
+Drop COLUMN end_lng;
+```
