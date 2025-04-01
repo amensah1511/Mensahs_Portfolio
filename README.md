@@ -102,3 +102,16 @@ DROP Column start_lat,
 DROP COLUMN end_lat,
 Drop COLUMN end_lng;
 ```
+
+I then proceeded to remove columns that were blank or returned null data to ensure data that would be used would not be skewed but empty values. 
+```DELETE     
+FROM
+    2024_bike_data
+WHERE
+    end_station_name = '' or null;
+
+Delete
+ from 2024_bike_data
+ Where
+ start_station_name = "";
+```
