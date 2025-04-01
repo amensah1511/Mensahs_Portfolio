@@ -59,4 +59,4 @@ Lily Moreno has tasked me with answering the first question. How do annual membe
 Involves collecting data and information and ensuring it satisfies necessary parameters.
 
 ## Data Collection 
-Data was collected from Motivate International Inc., which provided it under this [license](https://divvybikes.com/data-license-agreement). The dataset consists of rides recorded throughout each month of 2024. You can access the data here:
+Data was collected from Motivate International Inc., which provided it under this [license](https://divvybikes.com/data-license-agreement). The dataset consists of rides recorded throughout each month of 2024. You can access the data here: [Trip Data] https://divvy-tripdata.s3.amazonaws.com/index.html 
