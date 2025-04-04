@@ -145,4 +145,14 @@ WHERE
 ```
 # Analysis 
 
-During this stage of the study I used some data manipulation dstartigies to get a better understanding of the data and what it may convey 
+During this stage of the study, I used various data manipulation strategies to gain a better understanding of the data and its potential insights. A summary of those findings are below:
+
+When anaylyzing the rides there were a total of 4,207,396. There were tow types of user types for these rides, Casual rides and Member rides. The total of casual rides amounted to 1,521,226 which is 36% percent of the total amount of rides. While member rides amounted to 2,686,170 in total which counts for 64% of those rides. 
+```
+### Number of Member riders is 2686170  Number of Casual riders are 1521226
+
+SELECT member_casual,
+	count(ride_id)
+FROM 2024_bike_data
+GROUP BY member_casual;
+```
