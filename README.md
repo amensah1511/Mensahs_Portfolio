@@ -147,7 +147,9 @@ WHERE
 
 During this stage of the study, I used various data manipulation strategies to gain a better understanding of the data and its potential insights. A summary of those findings are below:
 
-When anaylyzing the rides there were a total of 4,207,396. There were tow types of user types for these rides, Casual rides and Member rides. The total of casual rides amounted to 1,521,226 which is 36% percent of the total amount of rides. While member rides amounted to 2,686,170 in total which counts for 64% of those rides. 
+![Sheet 3](https://github.com/user-attachments/assets/5d7531b2-f63d-47d5-87a3-b2f4fdad970c)
+
+When anaylyzing the rides there were a total of 4,207,396. There were two types of user types for these rides, Casual rides and Member rides. The total of casual rides amounted to 1,521,226 which is 36% percent of the total amount of rides. While member rides amounted to 2,686,170 in total which counts for 64% of those rides. 
 ```
 ### Number of Member riders is 2686170  Number of Casual riders are 1521226
 
@@ -156,3 +158,44 @@ SELECT member_casual,
 FROM 2024_bike_data
 GROUP BY member_casual;
 ```
+![Sheet 17 (2)](https://github.com/user-attachments/assets/589e3128-878b-43fb-8028-c0dd1426ae0a)
+
+Even though member rides outnumbered casual rides throughout the year, the average ride time for casual riders was significantly higher at 23 minutes and 57 seconds, compared to 12 minutes and 27 seconds for member rides.
+```
+#  Average ride time for casual riders. Returned AVG of 23:57 of average ride time for casual riders
+
+SELECT 
+    SEC_TO_TIME(AVG(TIME_TO_SEC(trip_duration))) AS AVG_Casual_Ride
+FROM
+    2024_bike_data
+WHERE
+    member_casual = 'casual';
+
+# Average ride time for members riders. Returned an AVG of 12:26 of ride time for members
+SELECT 
+    SEC_TO_TIME(AVG(TIME_TO_SEC(trip_duration))) AS AVG_member_Ride
+FROM
+    2024_bike_data
+WHERE
+    member_casual = 'member';
+```
+
+
+
+- Casual rides occurred most often on Saturdays and Sundays, with 14% of total rides happening on weekends. In contrast, casual rides were much lower during weekdays, staying below 5% of total rides from Monday through Thursday.
+- Member rides were more frequent on weekdays, peaking on Wednesdays and accounting for 11% of total rides. Throughout the week, member rides consistently remained above 10% of total rides, but dipped on weekends to around 7%.
+
+![Resize image project-2](https://github.com/user-attachments/assets/5269199e-8447-42cb-9772-b1c121f022d2)
+
+  
+  
+- Casual rides througout the entire week were much longer than than member rides. The longest rides were on Sundays averaging 33 minutes per ride while the longest member rides were on Saturdays averaging 15 minutes.
+- Member rides were consitnely at 12-13 minutes during the weekday
+
+
+![Adobe Express - file (1)](https://github.com/user-attachments/assets/11c8a768-4b3d-40ee-9a32-72ba44c744a8)
+
+- Both user types shared  similar patterns thoruoghout the year, rides were down at the beginning of the year and gradually climbed thrroughout the spring, summer, and fall before gradually falling  in the later fall months and into winter.
+- Casual rides peaked in the July with 231,925 total rides and saw it lowest number of rides in January at 17,701 rides
+- Member rides peaked in Septemebr with 320,833 total rides and saw its lowest number of rides in January at 96,401 rides 
+
