@@ -199,18 +199,20 @@ WHERE
 
 
 
-
+<img width="535" alt="image" src="https://github.com/user-attachments/assets/70b22f49-30ad-48ea-9745-68ef3d7b7ec5" />
 
 - Casual rides saw a noticeable increase in average duration during the summer, peaking in May at around 33 minutes and staying near 30 minutes from April to August. The shortest average duration occurred in December, dropping to 16 minutes. 
 - In contrast, member rides remained relatively consistent throughout the year, ranging from 10 to 14 minutes, with the longest average duration in June and the shortest in December.
 
+![Total Trip by User Type Per Month](https://github.com/user-attachments/assets/f3abe940-b4fb-45cb-8ade-679f334c94b3)
 
-<img width="535" alt="image" src="https://github.com/user-attachments/assets/70b22f49-30ad-48ea-9745-68ef3d7b7ec5" />
 
 
 - Both user types followed similar patterns throughout the year: ride numbers were low at the beginning of the year, gradually increased through spring, summer, and fall, then declined in late fall and into winter. 
 - Casual rides peaked in July with 231,925 rides and hit their lowest point in January with 17,701 rides. 
 - Member rides peaked in September with 320,833 rides and also had their lowest in January, with 96,401 rides.
+
+
 
 
  
