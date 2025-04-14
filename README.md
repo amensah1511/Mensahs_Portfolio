@@ -158,7 +158,9 @@ SELECT member_casual,
 FROM 2024_bike_data
 GROUP BY member_casual;
 ```
-![Sheet 17 (2)](https://github.com/user-attachments/assets/589e3128-878b-43fb-8028-c0dd1426ae0a)
+
+![Sheet 17](https://github.com/user-attachments/assets/8c3cd0e3-7fe6-43ed-8d10-d49fffe57696)
+
 
 Even though member rides outnumbered casual rides throughout the year, the average ride time for casual riders was significantly higher at 23 minutes and 57 seconds, compared to 12 minutes and 27 seconds for member rides.
 ```
@@ -180,8 +182,9 @@ WHERE
     member_casual = 'member';
 ```
 
+![Sheet 8 (2) (1)](https://github.com/user-attachments/assets/5d479f9c-63a4-47b3-a13b-a0db64bc0413)
 
-![Adobe Express - file (1)](https://github.com/user-attachments/assets/11c8a768-4b3d-40ee-9a32-72ba44c744a8)
+
 
 - Casual rides occurred most often on Saturdays and Sundays, with 14% of total rides happening on weekends. In contrast, casual rides were much lower during weekdays, staying below 5% of total rides from Monday through Thursday.
 - Member rides were more frequent on weekdays, peaking on Wednesdays and accounting for 11% of total rides. Throughout the week, member rides consistently remained above 10% of total rides, but dipped on weekends to around 7%.
@@ -190,16 +193,16 @@ WHERE
 
 
 
-  
-![Resize image project-2](https://github.com/user-attachments/assets/5269199e-8447-42cb-9772-b1c121f022d2)
+![Sheet 16](https://github.com/user-attachments/assets/4e17bc66-306c-466e-9460-adbea548966a)
+
   
 - Casual rides througout the entire week were much longer than than member rides. The longest rides were on Sundays averaging 33 minutes per ride while the longest member rides were on Saturdays averaging 15 minutes.
 - Member rides were consitnely at 12-13 minutes during the weekday
 
 
 
+![Average Trip Duration ](https://github.com/user-attachments/assets/5840ec5b-5a98-42cc-9235-3a2b2f9f9ae9)
 
-<img width="535" alt="image" src="https://github.com/user-attachments/assets/70b22f49-30ad-48ea-9745-68ef3d7b7ec5" />
 
 - Casual rides saw a noticeable increase in average duration during the summer, peaking in May at around 33 minutes and staying near 30 minutes from April to August. The shortest average duration occurred in December, dropping to 16 minutes. 
 - In contrast, member rides remained relatively consistent throughout the year, ranging from 10 to 14 minutes, with the longest average duration in June and the shortest in December.
@@ -213,26 +216,17 @@ WHERE
 - Member rides peaked in September with 320,833 rides and also had their lowest in January, with 96,401 rides.
 
 
-# Trip Duration By Month 
-
-
-- Casual rides saw a noticeable increase in average duration during the summer, peaking in May at around 33 minutes and staying near 30 minutes from April to August. The shortest average duration occurred in December, dropping to 16 minutes. 
-- In contrast, member rides remained relatively consistent throughout the year, ranging from 10 to 14 minutes, with the longest average duration in June and the shortest in December.
 
 
 
 
 # Share
 
-To effectively present insights from the Cyclistic Bike Share data, I designed clear and engaging visualizations that support easier interpretation and decision-making for stakeholders.
-I've developed interactive dashboards to allow for deliver quick, accessible insights.
-
-
-
-
-
-
+To effectively present insights from the Cyclistic Bike Share data, I designed clear and engaging visualizations that support easier interpretation and decision-making for stakeholders.I've developed [interactive dashboards](https://public.tableau.com/views/2024BikeData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to allow for deliver quick, accessible insights.
  
- 
+
+![Dashboard 1](https://github.com/user-attachments/assets/abbd2735-44ec-45ae-8420-9c3481941b0f)  ![Dashboard 2](https://github.com/user-attachments/assets/c42b265d-ab04-4c46-bcf5-76a884b47a83)
+
+
 
 
