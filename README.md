@@ -234,9 +234,9 @@ To effectively present insights from the Cyclistic Bike Share data, I designed c
 
 In this final phase, I have developed recommendations to address the business task, drawing on data insights, visualizations, and my overall analysis. The recommendations are as follows:
 
-Weekday Ride & Reward Program
 
-- The objective of the Weekday Ride & Reward Program is to incentivize casual riders to choose weekday rides by offering tangible rewards. This initiative involves launching a loyalty program that tracks rides taken from Monday through Friday. Riders can earn tiered rewards—such as coffee shop gift cards, discounts on bike gear, or free ride credits—by completing a set number of weekday rides each month. To keep engagement high, the program will also include themed ride challenges like “Midweek Miles” or “Friday Freedom,” which offer bonus incentives. Progress and upcoming rewards will be communicated through app notifications and targeted email marketing. 
+
+- I recommend the 'Weekday Ride & Reward Program'  to incentivize casual riders to choose weekday rides by offering tangible rewards. This initiative involves launching a loyalty program that tracks rides taken from Monday through Friday. Riders can earn tiered rewards—such as coffee shop gift cards, discounts on bike gear, or free ride credits—by completing a set number of weekday rides each month. To keep engagement high, the program will also include themed ride challenges like “Midweek Miles” or “Friday Freedom,” which offer bonus incentives. Progress and upcoming rewards will be communicated through app notifications and targeted email marketing. 
 
 - I recommend implementing the “Weekend Double Points” incentive program to increase weekend member rides, which currently see only a slight increase compared to casual riders who experience a larger boost. By offering double reward points for rides taken on Saturdays and Sundays, members can redeem these points for rewards like discounted memberships, bike gear, or entries into local experience raffles. This program targets a shift in riding habits from weekday commutes to more weekend leisure trips.
 
