@@ -213,6 +213,23 @@ WHERE
 - Member rides peaked in September with 320,833 rides and also had their lowest in January, with 96,401 rides.
 
 
+# Trip Duration By Month 
+
+
+- Casual rides saw a noticeable increase in average duration during the summer, peaking in May at around 33 minutes and staying near 30 minutes from April to August. The shortest average duration occurred in December, dropping to 16 minutes. 
+- In contrast, member rides remained relatively consistent throughout the year, ranging from 10 to 14 minutes, with the longest average duration in June and the shortest in December.
+
+
+
+
+# Share
+
+To effectively present insights from the Cyclistic Bike Share data, I designed clear and engaging visualizations that support easier interpretation and decision-making for stakeholders.
+I've developed interactive dashboards to allow for deliver quick, accessible insights.
+
+
+
+
 
 
  
